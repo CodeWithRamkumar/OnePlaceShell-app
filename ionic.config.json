@@ -1,0 +1,7 @@
+{
+  "name": "shell-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
