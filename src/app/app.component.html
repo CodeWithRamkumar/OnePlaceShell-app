@@ -1,3 +1,18 @@
 <ion-app>
-  <ion-router-outlet></ion-router-outlet>
+  <ion-header>
+    <ion-toolbar>
+      <ion-title>Project host app</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-list>
+    <ion-item>
+      <ion-button routerLink="/music-player/home">First Component</ion-button>
+    </ion-item>
+    <ion-item>
+      <ion-button  routerLink="/music/main-header">Second Component</ion-button>
+    </ion-item>
+  </ion-list>
+  <ion-content>
+    <ion-router-outlet></ion-router-outlet>
+  </ion-content>
 </ion-app>
